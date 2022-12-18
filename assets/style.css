@@ -1,16 +1,22 @@
-body {
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* body {
     background-color: #969696;
     margin: 0px;
     margin-left: 550px;
     padding-top: 200px;
     border: 0px #969696;
 
-}
+} */
 
 .hi {
     color: #ffe174;
     font-family: montserrat;
-    font-weight: lighter;
+    font-weight: 275;
     font-size: 2.0em;
     margin-bottom: 0px;  
 }
@@ -21,34 +27,50 @@ body {
     font-size: 4.0em;
     padding-top: 0px;
     margin-top: 10px;
-    margin-bottom: 40px;    
+    margin-bottom: 10px;    
 }
 
 .desc {
     color: whitesmoke;
     font-family: montserrat;
-    font-weight: lighter;
+    font-weight: 275;
     font-size: 1.5em;
     margin-top: 0px;
 }
 
 button {
-    background-color:#969696;
-    color: rgb(42, 40, 40);
+    background-color:#96969698;
+    color: whitesmoke;
     font-family: montserrat;
     font-size: 20px;
+    font-weight: 500;
     padding: 5px 5px;
     text-align: center;
     border: 3px solid #ffe174;
     border-radius: 30px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 200px;
    
 }
 
 button:hover {
-    background-color: rgb(219, 81, 31);
+    background-color: rgba(255, 255, 0, 0.569);
     border: none;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(210, 205, 205, 0.596), rgba(0, 0, 0, 0.5)),url("./journey.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.hero-text {
+    margin: 0px;
+    margin-left: 550px;
+    padding-top: 200px;
 }
 
 
