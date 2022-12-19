@@ -1,6 +1,7 @@
 body,html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -39,7 +40,7 @@ body,html {
 }
 
 button {
-    background-color:#96969698;
+    background-color:#5c5a5a98;
     color: whitesmoke;
     font-family: montserrat;
     font-size: 20px;
@@ -56,6 +57,8 @@ button {
 button:hover {
     background-color: rgba(255, 255, 0, 0.569);
     border: none;
+    color: rgb(68, 67, 67);
+    font-weight: 700;
 }
 
 .hero {
@@ -73,5 +76,37 @@ button:hover {
     padding-top: 200px;
 }
 
+nav {
+    background-color: rgb(255, 195, 44);
+    font-family: montserrat;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid rgb(207, 0, 162);
+    height: 50px;
+   
+    
+}
 
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(50, 50, 50, 0.815);
+    font-weight: 500;
+    margin: 5px 20px;
+    float: left;
+   
+    
+}
+
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 20px;
+
+    
+
+}
 
