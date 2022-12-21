@@ -22,7 +22,7 @@ body,html {
     margin-bottom: 0px;  
 }
 
-#name {
+.name {
     color: #89015C;
     font-family: montserrat;
     font-size: 4.0em;
@@ -31,13 +31,13 @@ body,html {
     margin-bottom: 10px;    
 }
 
-.desc {
-    color: whitesmoke;
+.passion {
     font-family: montserrat;
+    color: whitesmoke;
     font-weight: 275;
-    font-size: 1.5em;
-    margin-top: 0px;
+    font-size: 2.0em;
 }
+
 
 button {
     background-color:#5c5a5a98;
@@ -77,11 +77,14 @@ button:hover {
 }
 
 nav {
-    background-color: rgb(255, 195, 44);
+    background-color: rgb(231, 187, 75);
     font-family: montserrat;
     padding: 5px 5px 5px 5px;
-    border: 2px solid rgb(207, 0, 162);
+    border: 6px solid rgb(143, 141, 141);
+    border-right: none;
+    border-left: none;
     height: 50px;
+    float: center;
    
     
 }
@@ -91,10 +94,7 @@ a {
     text-decoration: none;
     color: rgba(50, 50, 50, 0.815);
     font-weight: 500;
-    margin: 5px 20px;
-    float: left;
-   
-    
+    margin: 5px 20px;  
 }
 
 nav ul {
@@ -106,7 +106,37 @@ nav ul li {
     display: inline;
     padding: 0px 20px;
 
-    
+}
+
+
+.about-me {
+    font-family: montserrat;
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    padding-bottom: 20px;
+    display: block;
+    color: aqua;
 
 }
 
+.float-left {
+    float: left;
+   
+}
+
+.story {
+    font-family: montserrat;
+    margin-top: 0px;
+    color: rgba(50, 50, 50, 0.815);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-left: 380px;
+    padding: 0px 20px 25px 20px;
+   
+}
+
+img {
+    display: inline;
+}
